@@ -8,7 +8,7 @@
     "update": "git pull origin main && npm run db-migrate && npm run db-types",
     "prepare": "husky install",
     "clean": "npm run lint:fix && npm run format:write",
-    "dev": "next dev",
+    "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -123,7 +123,7 @@
     "tailwind-merge": "^2.0.0",
     "tailwindcss": "^3.3.5",
     "tailwindcss-animate": "^1.0.7",
-    "ts-node": "^10.9.2",
+    "ts-.node": "^10.9.2",
     "typescript": "^5"
   }
 }
